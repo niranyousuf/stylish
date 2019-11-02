@@ -1,0 +1,103 @@
+/* =====================================================================================
+Author          : tean Codiov
+Making          : Niran Yousuf & Ibrahim hasnat
+Version         : 1.03
+Visit Us        : www.codiov.com
+====================================================================================== */
+/* ===== Big screen Responciv CSS mark up starts ======================== */
+@media only screen and ( min-width: 1280px) {
+    .banner-text {
+        left: 50%;
+        width: 1170px;
+        text-align: center;
+        margin-left: -585px;
+    }
+}
+/* ===== Big screen Responciv CSS mark up End =========================== */
+/* ===== tablet layout:768px Responciv CSS mark up starts =============== */
+@media only screen and ( min-width: 768px) and (max-width:991px) {
+    header .menubar { padding: 25px 6px;}
+    .banner-text { margin-top: 150px;}
+    #testimonial .item { margin: 0 8%;}
+    #banner > .banner-text > p {width: 80%;}
+    .single-profile, .price-table, .service {margin-bottom: 40px;}
+    .about-image {margin-top: 73px;}
+	.blog-banner .metabox {
+		bottom: 15px;
+		left: -12px;
+		width: 100%;
+		text-align: right;
+		padding-right: 15px;
+		font-size: 12px;
+	}
+	.blog-banner .metabox .author {
+		height: 50px;
+		width: 50px;
+		bottom: 0px;
+		left: 16px;
+	}
+	.blog-banner .metabox::after {
+		width: 80%;
+		right: 0px !important;
+		left: auto;
+	}
+    .form-style {margin-left: -15px;}
+    
+    .main-blog-post{margin-bottom: 40px;}
+} 
+/* ===== tablet layout:768px Responciv CSS mark up End ================== */
+/* === small mobile layout:767px-360px Responciv CSS mark up starts ===== */
+@media only screen and (max-width:767px) {
+    header .menubar .logo a h2 {font-size: 22px;padding: 18px 0px; }
+    header .top {display: none;}
+    header .menubar { 
+        padding: 6px;
+        height: 70px;
+        position: fixed;
+        
+    }
+    .js #menu {display:none;}
+    .js .slicknav_menu {display:block;}
+    .section-padding { padding: 40px 0px;}
+    .page-heading,
+    .banner-text {margin-top: 100px; margin-left: 16px;}
+    .page-heading > h2,
+    .banner-text > h2 {font-size: 20px;}
+    .page-heading > h2::after,
+    .banner-text > h2::after {border-bottom: 50px solid transparent;}
+    #banner > .banner-text > p {display: none;}
+    .section-title > h2 {font-size: 18px; padding: 10px 25px; }
+    .section-title > h2::after { border-bottom: 40px solid transparent;}
+    h2 {margin-bottom: 36px; }
+    p { font-size: 12px; line-height: 22px; }
+    .content-heading > h2 { margin: 12px 0px; font-size: 16px; }
+    .single-image {padding-bottom: 30px;}
+    .single-space { padding : 0;}
+    .content-title > h2 {margin-bottom: 10px; font-size: 18px;}
+    .package-banner {height: 280px;margin-top: 40px;}
+    .offer-heading h2 { font-size: 28px; margin-bottom: 20px;}
+    .offer-heading h4 {font-size: 24px;}
+    .offer-heading {padding: 92px 0;}
+    address { margin-bottom: 40px;}
+    #testimonial .item { margin: 0 5%;}
+    .single-profile, .about, .price-table, .service {margin-bottom: 40px;}
+	.single-blog {margin-bottom: 40px;}
+	blockquote {text-align: center;	margin-bottom: -10px;}
+	.form-style {padding: 15px; margin-top: 0;}
+	.form-style h2 {
+		font-size: 16px;
+		padding: 15px;
+		margin: -15px;
+		margin-bottom: 15px;
+	}
+	footer.footer {text-align: center;}
+	.social {text-align: center;}
+	.social > ul > li {
+		padding: 0 8px;
+		margin: 0;
+		margin-top: 15px;
+    }
+    .main-blog-post{margin-bottom: 40px;}
+} 
+/* === small mobile layout:767px-360px Responciv CSS mark up END ======== */
+/* ===== Responciv CSS mark up END ====================================== */
