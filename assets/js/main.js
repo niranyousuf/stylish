@@ -71,5 +71,8 @@
             $('#preloader')
                 .fadeOut('slow')
         },1000);
-    }); 
+    });
+    
+    var year = new Date().getFullYear();
+    $('.currentyear').text(year);
 }(jQuery));

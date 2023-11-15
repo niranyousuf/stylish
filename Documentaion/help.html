@@ -136,7 +136,7 @@
                 <h2><span class="text-uppercase logo">STYLISH &#124;</span> Men's parlour Onepage Template</h2>
                 <p>Thank you for purchasing our template. If you have any questions that are beyond the scop of this
                     help file. <br />24/7 support: Send us message from your profile</p>
-                <p>Created By <a target="_blank" href="http://codiov.com/">Codiov</a></p>
+                <p>Created By <a target="_blank" href="https://niranyousuf.me/">Niran Yousuf</a></p>
             </div>
         </div>
     </header><!-- / header -->
@@ -148,8 +148,10 @@
                     <li><a class="smooth" href="#installation">installation</a></li>
                     <li><a class="smooth" href="#section-list">section list</a></li>
                     <li><a class="smooth" href="#font">google font</a></li>
-                    <li><a class="smooth" href="#css-files"><span class="text-uppercase">[ CSS ]</span> Source File</a></li>
-                    <li><a class="smooth" href="#js-files"><span class="text-uppercase">[ JS ]</span> Source File</a></li>
+                    <li><a class="smooth" href="#css-files"><span class="text-uppercase">[ CSS ]</span> Source File</a>
+                    </li>
+                    <li><a class="smooth" href="#js-files"><span class="text-uppercase">[ JS ]</span> Source File</a>
+                    </li>
                     <li><a class="smooth" href="#customization">customization</a></li>
                     <li><a class="smooth" href="#thanks">thanks</a></li>
                 </ul>
@@ -284,7 +286,8 @@
                     <hr>
                     <div class="row">
                         <div class="col-sm-8">
-                            <p>All <code><b>CSS</b></code> file are exists in <code class="text-lowercase">stylish > assets > css</code>
+                            <p>All <code><b>CSS</b></code> file are exists in <code
+                                    class="text-lowercase">stylish > assets > css</code>
                                 folder</p>
                             <code>
                                 <pre class="text-lowercase">
@@ -333,7 +336,8 @@
                     <hr>
                     <div class="row">
                         <div class="col-sm-8">
-                            <p>All <code><b>js</b></code> file are exists in <code class="text-lowercase">stylish > assets > js</code>
+                            <p>All <code><b>js</b></code> file are exists in <code
+                                    class="text-lowercase">stylish > assets > js</code>
                                 folder</p>
                             <code>
                                 <pre class="text-lowercase">
@@ -459,7 +463,7 @@
         <div class="container">
             <div class="row">
                 <div class="copyright-text">
-                    <p>&copy; 2018, All Right Reserved.</p>
+                    <p>&copy; <span class="currentyear">2018</span>, All Right Reserved.</p>
                 </div>
             </div>
         </div>
@@ -489,6 +493,9 @@
                 }, 1000);
                 e.preventDefault();
             });
+
+            var year = new Date().getFullYear();
+            $('.currentyear').text(year);
 
         })(jQuery);
     </script>
