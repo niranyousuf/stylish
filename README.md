@@ -1,4 +1,4 @@
-# TYLISH | Men's Parlour Onepage Template
+# STYLISH | Men's Parlour Onepage Template
 
 [See Demo](https://stylish001.netlify.app/)
 
